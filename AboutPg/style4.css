@@ -1,0 +1,109 @@
+.menu {
+    color: black; 
+    text-decoration: none; 
+    font-size: 30px;
+    margin-top: -15px;
+    background-color: rgb(8, 8, 8);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+button {
+    border: 0px;
+    border-radius: 10px;
+    margin-right: 2.5px;
+    margin-left: 2.5px;
+    font-size: 30px;
+    margin-top: 5px;
+    background-color: black;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #028f9d;
+}
+
+body {
+    background-image: url("https://img.freepik.com/free-photo/wooden-board-empty-table-front-blurred-background-perspective-brown-wood-with-blurred-people-activities-park-can-be-used-display-montage-your-products-spring-season-vintage-filtered-image_1253-1406.jpg");
+    background-size: cover;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.blur {
+    background: rgba(72, 69, 69, 0.75); 
+    backdrop-filter: blur(6px);
+    margin: 20px;
+    border-radius: 10px;
+    color: whitesmoke;
+    padding: 10px;
+}
+.interestsBody {
+    background-size: cover;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+h1 {
+    text-align: center;
+    justify-content: center;
+    font-size: 80px;
+}
+
+h4 {
+    padding-top: 4%;
+    padding-bottom: 1%;
+    border-bottom: solid black 5px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h5, img {
+    display: flex;
+    align-items: center;
+}
+img {
+    width: 500px;
+}
+
+h5 {
+    line-height: 1.5;
+}
+
+a {
+    font-size: 20px;
+}
+
+h6 {
+    color: whitesmoke
+}
+.copyright {
+    background-color: black;
+    margin-bottom: 0px;
+    justify-content: center;
+    text-align: center;
+}
+
+.logo {
+    width: 147px;
+    margin-right: 14.5px;
+    float: right;
+    display: block;
+    padding-top: 7px;
+}
+
+.buttons{
+    padding-top:1rem ;
+    padding-bottom: 1rem;
+    margin-top: 10px;
+}
