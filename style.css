@@ -1,0 +1,134 @@
+.titlePg, .myTable {
+     color: whitesmoke; 
+}
+
+.menu {
+    /* display: flex;
+    justify-content: center; */
+    display: block;
+    margin-top: 0;
+    color: black; 
+    text-decoration: none; 
+    font-size: 30px;
+    background-color: rgb(8, 8, 8);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.logo {
+    width: 165px;
+    margin-right: 10px;
+    float: right;
+    display: block;
+}
+
+.buttons{
+    padding-top:1rem ;
+    padding-bottom: 1rem;
+    margin-top: 16px;
+}
+
+.titlePg {
+    background-image:url("photos/background.jpg");
+    background-size: fill;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    margin-top: -16px;
+}
+.MyName h1 {
+    font-family: "Comfortaa";
+    font-size: 80px;
+    text-align: center;
+    position: relative;
+    margin-top: 5%;
+    justify-content: center;
+}
+.welcome, h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.background-image {
+    position: fixed;
+}
+
+.myTable {
+    background-color: #028f9d;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: -10px;
+    padding: 20px;
+    border-collapse: collapse;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+.row {
+    align-items: center;;
+}
+
+.line {
+    border-right: 0px solid black;
+}
+
+button {
+    border: 0px;
+    border-radius: 10px;
+    margin-right: 2.5px;
+    margin-left: 2.5px;
+    font-size: 30px;
+    margin-top: 0;
+    background-color: black;
+    color: whitesmoke;
+    text-decoration: none;
+    height: fit-content;
+}
+
+button:hover {
+    background-color: #028f9d;
+}
+
+img {
+    width: 450px;
+    border: solid black 9px;
+    border-radius: 10px;
+}
+
+#scroll {
+  overflow: auto;
+  background: rgb(243, 242, 245);
+}
+
+#content {
+  background-color: rgb(250, 245, 243);
+}
+
+.BioButton {
+    background-color: #fb5376;
+    color: whitesmoke;
+}
+
+
+
+h4 {
+    line-height: 1.5;
+}
+
+h6 {
+    color: whitesmoke
+}
+.copyright {
+    background-color: black;
+    margin-bottom: 0px;
+    justify-content: center;
+    text-align: center;
+}
+
+a {
+    font-size: 20px;
+}
