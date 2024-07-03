@@ -1,0 +1,223 @@
+body {
+    background-image: url("../assets/trail.jpeg");
+    background-size: cover;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    height: auto;
+    width: 100%
+}
+
+td {
+    padding: 10px;
+}
+
+.menu {
+    color: black; 
+    text-decoration: none; 
+    font-size: 30px;
+    margin-top: -15px;
+    background-color: rgb(8, 8, 8);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+button {
+    border: 0px;
+    border-radius: 10px;
+    margin-right: 2.5px;
+    margin-left: 2.5px;
+    font-size: 30px;
+    margin-top: 5px;
+    background-color: black;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #028f9d;
+}
+
+h3 {
+    margin-top: 0px;
+}
+
+img {
+    width: 160px;
+    text-align: center;
+}
+
+
+.google {
+    display: flex;
+    justify-content: center;
+}
+
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.info {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.row {
+    margin-top: 40px;
+    color: whitesmoke;
+    justify-content: center;
+}
+
+.text-center {
+    margin: 20px;
+    border-radius: 10px;
+    color: whitesmoke;
+    padding: 10px;
+    justify-content: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.back {
+    background: rgba(72, 69, 69, 0.75); 
+    backdrop-filter: blur(6px);
+    margin: 20px;
+    border-radius: 10px;
+    color: whitesmoke;
+    padding: 10px;
+    justify-content: center;
+    background-position: center;
+    text-align: center;
+}
+
+.col {
+    border-radius: 10px;
+    justify-content: center;
+}
+
+a {
+    font-size: 20px;
+}
+
+h6 {
+    color: whitesmoke
+}
+
+h1 {
+    font-size: 80px;
+}
+
+.copyright {
+    background-color: black;
+    margin-bottom: 0px;
+    justify-content: center;
+    text-align: center;
+}
+
+.logo {
+    width: 147px;
+    margin-right: 14.5px;
+    float: right;
+    display: block;
+    padding-top: 7px;
+}
+
+.buttons{
+    padding-top:1rem ;
+    padding-bottom: 1rem;
+    margin-top: 10px;
+}
+
+/* Image Carousel */
+.imageCarousel{
+    bottom:0;
+    width:90%;
+    position:relative;
+    height:500px;
+    display:block;
+    margin-inline:auto;
+}
+* {box-sizing:border-box}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 90%;
+  height:40%;
+  position: relative;
+  margin: auto;
+  margin-inline:auto;
+}
+/* Hide the images by default */
+.mySlides {
+  display: none;
+  width:90%;
+  height:90%;
+  margin-inline:auto;
+}
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+/* Position the “next button” to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+/* Caption text */
+.text {
+  color: #F2F2F2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #F2F2F2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
